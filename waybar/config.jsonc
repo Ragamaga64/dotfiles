@@ -1,0 +1,25 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "margin-top": 6,
+  "margin-left": 10,
+  "margin-right": 10,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio", "battery"],
+
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+
+  "battery": {
+    "format": "{capacity}% 󰁹",
+    "interval": 30,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    }
+  }
+}

@@ -1,0 +1,47 @@
+# Imposta la tastiera italiana per tutti i dispositivi
+input * {
+    xkb_layout it
+    xkb_variant , 
+    repeat_delay 300
+    repeat_rate 30
+}
+
+# Modificatore principale (Super/Win)
+set $mod Mod4
+
+# Terminale predefinito
+set $term kitty
+
+# Keybind per aprire il terminale
+bindsym Control+Return exec $term
+
+# Keybind per Wofi
+bindsym Control+d exec wofi --show drun
+
+# Waybar (da lanciare all'avvio)
+exec waybar
+
+# Esempio di gestione delle finestre
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# Spostare finestre tra workspace
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# Workspace numerati
+set $ws1 "1:Term"
+set $ws2 "2:Web"
+set $ws3 "3:Code"
+
+# Spostamento tra workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+
+# Avvio applicazioni (esempio)
+bindsym $mod+Return exec $term

@@ -1,0 +1,17 @@
+# Imposta il mod key (Super)
+set $mod Mod4
+
+# Terminale
+bindsym $mod+Return exec /usr/bin/kitty
+
+# Wofi
+bindsym $mod+d exec /usr/bin/wofi --show drun
+
+# Tastiera italiana
+input * xkb_layout it
+
+# Riavvio / logout
+bindsym $mod+Shift+r reload
+bindsym $mod+Shift+e exit
+
+exec_always waybar
