@@ -1,0 +1,42 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "margin": "0 60 12 60",
+
+  "modules-left": ["custom/menu", "hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["network", "pulseaudio", "battery", "clock", "firewall"],
+
+  "custom/menu": {
+    "exec": "echo 'MENU'",
+    "on-click": "wofi --show drun",
+    "tooltip": "Apri menu",
+    "interval": 86400
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  {ipaddr}",
+    "format-disconnected": "󰖪  Disconnesso",
+    "interval": 5,
+    "on-click": "nm-connection-editor"
+  },
+
+  "firewall": {
+    "exec": "~/.config/waybar/scripts/firewall.sh",
+    "interval": 10,
+    "tooltip": "Stato firewall"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "disable-scroll": true
+  },
+
+  "clock": {
+    "format": "{:%H:%M}"
+  }
+}
+
+
+
