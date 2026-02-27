@@ -1,0 +1,34 @@
+/* Finestra principale di wofi */
+window {
+    border-radius: 12px;               /* angoli arrotondati */
+    background-color: rgba(30, 30, 30, 0.85); /* sfondo scuro semitrasparente */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* bordo leggero */
+    padding: 6px;
+}
+
+/* Input (barra di ricerca) */
+entry {
+    border-radius: 10px;
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #f0f0f0;                   /* testo chiaro */
+    padding: 4px 6px;
+}
+
+/* Lista dei risultati */
+listview {
+    border-radius: 10px;
+    background-color: rgba(35, 35, 35, 0.85);
+    padding: 4px;
+}
+
+/* Singola voce */
+listview row {
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin: 2px 0;
+}
+
+/* Hover su singola voce */
+listview row:selected {
+    background-color: rgba(70, 70, 70, 0.9);
+}
