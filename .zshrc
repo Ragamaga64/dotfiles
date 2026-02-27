@@ -8,3 +8,5 @@ fi
 eval "$(starship init zsh)"
 
 alias pushdotutils="cd ~/dotfiles && git status -s && git add . && git commit -m "Aggiornamento $(date "+%Y-%m-%d %H:%M:%S") 2>/dev/null && git push
+
+alias updots="~/dotfiles/update-dotfiles.sh"
