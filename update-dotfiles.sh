@@ -20,12 +20,15 @@ cp -r ~/.config/kitty/* "$REPO/kitty/" 2>/dev/null
 cp ~/.zshrc "$REPO/" 2>/dev/null
 cp ~/.bashrc "$REPO/" 2>/dev/null
 
+# Genera elenco file aggiornato
+find . -type f > filelist.txt
+
 # Vai nella repo
 cd "$REPO" || exit
 
 # Aggiungi, commit e push via SSH
 git add .
-git commit -m "Aggiornamento dotfiles $(date +"%Y-%m-%d %H:%M:%S")"
+git commit -m "Aggiornamento dotfiles e lista file $(date +"%Y-%m-%d %H:%M:%S")"
 git push origin main
 
 echo "Aggiornamento completato ✅"
