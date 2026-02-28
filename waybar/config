@@ -5,7 +5,7 @@
 
   "modules-left": ["custom/menu", "hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "battery", "clock", "firewall"],
+  "modules-right": ["network", "pulseaudio", "battery", "clock", "custom/firewall"],
 
   "custom/menu": {
     "exec": "echo 'MENU'",
@@ -22,10 +22,11 @@
     "on-click": "nm-connection-editor"
   },
 
-  "firewall": {
+  "custom/firewall": {
     "exec": "~/.config/waybar/scripts/firewall.sh",
-    "interval": 10,
-    "tooltip": "Stato firewall"
+    "return-type": "json",
+    "interval": 5,
+    "on-click": "kitty -e sudo ufw toggle"
   },
 
   "hyprland/workspaces": {

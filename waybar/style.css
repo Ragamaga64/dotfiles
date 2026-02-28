@@ -1,10 +1,11 @@
 * {
     font-family: "JetBrainsMono Nerd Font";
-    font-size: 12px;
+    font-size: 14px;
 }
 
 window#waybar {
-    background: rgba(30, 30, 46, 0.85);
+    background: rgba(30, 30, 30, 0.85);
+    color: #ebebeb;
     border-radius: 12px;
 }
 
@@ -22,4 +23,17 @@ window#waybar {
 #clock, #battery, #network, #pulseaudio {
     padding: 0 10px;
     color: #cdd6f4;
+}
+
+#custom-firewall {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+#custom-firewall.active {
+    color: #f9e2af;  /* giallo Catppuccin */
+}
+
+#custom-firewall.inactive {
+    color: #f38ba8;  /* rosso */
 }
