@@ -1,0 +1,11 @@
+width=520
+height=380
+location=center
+show=drun
+prompt=Applications
+lines=8
+columns=1
+allow_images=true
+image_size=28
+gtk_dark=true
+style=~/.config/wofi/style.css
