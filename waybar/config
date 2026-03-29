@@ -5,7 +5,7 @@
   "margin": "0 60 12 60",
   "modules-left": ["custom/menu"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "battery", "clock", "custom/firewall"],
+  "modules-right": ["network", "pulseaudio", "battery", "clock", "custom/nft"],
 
   "custom/menu": {
     "exec": "echo 'MENU'",
@@ -22,11 +22,12 @@
     "on-click": "nm-connection-editor"
   },
 
-  "custom/firewall": {
-    "exec": "~/.config/waybar/scripts/firewall.sh",
+  "custom/nft": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/nft_status.sh",
     "return-type": "json",
     "interval": 5,
-    "on-click": "kitty -e sudo ufw toggle"
+    "on-click": "sudo systemctl restart nftables"
   },
 
   "hyprland/workspaces": {

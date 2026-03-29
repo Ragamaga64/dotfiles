@@ -21,6 +21,7 @@
 ./.git/objects/df/d4b3655b52f6ea6ad89205a2e50174f7702958
 ./.git/objects/be/bfeef7fbcee4c83025b446d5c8021ab32bbb28
 ./.git/objects/e6/4d1fb77d01f5efed74bb812535476872ca1fdb
+./.git/objects/af/93686b53267cc96001193e23d1af6bf36ededf
 ./.git/objects/e5/47becdfea81f57de8107386b5d1cd4b34c1332
 ./.git/objects/50/0fbcbfcc6a0d3d18e44b8bad4196537df9dc7d
 ./.git/objects/22/26670d1d4582deeff05208158bf2c7da275be9
@@ -30,6 +31,7 @@
 ./.git/objects/b2/b77730b8c9ae0f2fe922cf341097bd8b17b31c
 ./.git/objects/ae/3281a210fa8ebfef401a798f073573b29e41e9
 ./.git/objects/ae/e5b48a8286867e38c8779be095a1e9f9fa4c2a
+./.git/objects/ae/2733f331c8235fc900c7f81a9eaf8eb2098a53
 ./.git/objects/f6/a24f42cd9f2efb48680a318c675588d60fd9c1
 ./.git/objects/ca/0b633f86bf272f548338cab220d1aa4060e992
 ./.git/objects/79/56fe6362636ea53eb12ec158f84574a15a22bf
@@ -37,16 +39,20 @@
 ./.git/objects/3c/f0d8562311b9a18e8712f751bd88099dd9b2f4
 ./.git/objects/45/bf35d3013fd0386444fb8c571c7d961ef068ea
 ./.git/objects/46/8c24174988a82e0525c6d6b9069d3147456cdb
+./.git/objects/bb/b4c7cebb61eafaf96a9f033cfb2197dbe903d4
+./.git/objects/dd/98c34b672ba34e3aa76072389e9cbe98f0ab39
 ./.git/objects/52/5b643fb48936ccbf84ac37cc0d2c93d3da5e0d
 ./.git/objects/1f/955f69a79886c0d28d54b8d41a532483f4e66d
 ./.git/objects/4e/afa07f717dd58839051b994009684eca900e3d
 ./.git/objects/84/9c0d9b0db397e8178e6b8cadb846ccf4be4858
+./.git/objects/dc/60d6ffc215fe70c7bd5084dfbbd0084c2efc3d
 ./.git/objects/pack/pack-bb6372664dc00461391728629a9804feafc30724.idx
 ./.git/objects/pack/pack-bb6372664dc00461391728629a9804feafc30724.pack
 ./.git/objects/pack/pack-bb6372664dc00461391728629a9804feafc30724.rev
 ./.git/objects/a9/29ad786b88fa5a8ffbec5faa8b530c5178f55f
 ./.git/objects/34/30b6fe2a814022084cd5d60196dfcbf5550c9a
 ./.git/objects/5d/34ad2f8d42e405bf291a6764a3806252333d5e
+./.git/objects/f2/44d07b0f609bd80c7fc1c72898e2f7ab1e2621
 ./.git/objects/71/5e1390bb837df118cfd7b88406c15f6e6c4fb0
 ./.git/objects/c4/8b3a41181f8daabb341701753b46c5198b1ce7
 ./.git/objects/92/83825aea5233d65e5a0fb3298d42d1128461ff
@@ -91,6 +97,8 @@
 ./waybar/modules/idle_inhibitor.jsonc
 ./waybar/modules/taskbar.jsonc
 ./waybar/modules/cliphist.jsonc
+./waybar/scripts/nft_status.sh
+./waybar/scripts/nft_toggle.sh
 ./waybar/scripts/wifi.sh
 ./waybar/scripts/firewall.sh
 ./waybar/config.backup
