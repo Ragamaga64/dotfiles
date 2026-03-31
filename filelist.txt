@@ -26,6 +26,7 @@
 ./.git/objects/e5/47becdfea81f57de8107386b5d1cd4b34c1332
 ./.git/objects/ce/ed5b63461924393f65b8c94ee3d3f01e92a713
 ./.git/objects/50/0fbcbfcc6a0d3d18e44b8bad4196537df9dc7d
+./.git/objects/a1/8252c0de2d455d1986e73708ed7ec6d4932477
 ./.git/objects/22/26670d1d4582deeff05208158bf2c7da275be9
 ./.git/objects/6f/07843736d233a39a548fd14efe87a8c7cad746
 ./.git/objects/47/7873b213f83165f1e0938fdf36cda6f5c566b4
@@ -48,6 +49,7 @@
 ./.git/objects/b0/a546eb5bc1b204275bc50f911a049b78afe8d4
 ./.git/objects/59/2a0664dee8ae5e8b68663d8801a6efc2c99c83
 ./.git/objects/8b/137891791fe96927ad78e64b0aad7bded08bdc
+./.git/objects/05/ae2c7513ee9991f99b141c350fbc2de571bb7a
 ./.git/objects/4d/ebd8c864ad3549f3d92949af4abfd4daae9595
 ./.git/objects/4d/ed1f63fbec9e002379fcfbfeb7b81549cc34b7
 ./.git/objects/87/d9ecd338f90272da67f9725fa6b2c27bbcffae
@@ -58,6 +60,7 @@
 ./.git/objects/1f/955f69a79886c0d28d54b8d41a532483f4e66d
 ./.git/objects/b8/09378a5ccf9fb5dbcf0d821f8bb263a3bbc87e
 ./.git/objects/07/4bf69c9122ea5bf29fa08efa40e70b3515bcd2
+./.git/objects/fa/76b6e406e9145aba23c63a7e54bf9db36042f0
 ./.git/objects/4e/afa07f717dd58839051b994009684eca900e3d
 ./.git/objects/84/9c0d9b0db397e8178e6b8cadb846ccf4be4858
 ./.git/objects/0b/e9dcfe50a088d6ae74ef5ff8270333b9391fc7
@@ -84,7 +87,6 @@
 ./.git/ORIG_HEAD
 ./.git/index
 ./.git/info/exclude
-./.git/AUTO_MERGE
 ./.git/COMMIT_EDITMSG
 ./.git/config
 ./.git/HEAD
