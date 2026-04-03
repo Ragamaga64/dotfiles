@@ -19,6 +19,8 @@
 ./.git/logs/refs/remotes/origin/main
 ./.git/logs/refs/remotes/origin/HEAD
 ./.git/objects/df/d4b3655b52f6ea6ad89205a2e50174f7702958
+./.git/objects/e2/32438c84565f8a4ddde63c0cd60b0c6c9e9a5a
+./.git/objects/7e/1567ba7ae3b43608c6d7c412891079e09c0af8
 ./.git/objects/be/bfeef7fbcee4c83025b446d5c8021ab32bbb28
 ./.git/objects/b5/8333787e2089d6c9e115e32a2adf2890b44027
 ./.git/objects/e6/4d1fb77d01f5efed74bb812535476872ca1fdb
@@ -29,6 +31,7 @@
 ./.git/objects/a1/8252c0de2d455d1986e73708ed7ec6d4932477
 ./.git/objects/22/26670d1d4582deeff05208158bf2c7da275be9
 ./.git/objects/6f/07843736d233a39a548fd14efe87a8c7cad746
+./.git/objects/35/2b1c513b11a9bd3e2b024b0ef240747448819d
 ./.git/objects/47/7873b213f83165f1e0938fdf36cda6f5c566b4
 ./.git/objects/c3/7c29f462942641700d4c5670c84e385ad95318
 ./.git/objects/86/23e5249cc6618703037807d49733526d0932a6
@@ -37,6 +40,7 @@
 ./.git/objects/8f/7950c4794c2abf5f010c479cbb2906fb347bff
 ./.git/objects/28/7df9e59a0e5231c209b168e8a842532142ac9e
 ./.git/objects/b9/38612a7c4a85aac382f3d60391aa9de6740dd3
+./.git/objects/5e/af3667a15683799c56149d87611e3c754ad21c
 ./.git/objects/b2/b77730b8c9ae0f2fe922cf341097bd8b17b31c
 ./.git/objects/ae/3281a210fa8ebfef401a798f073573b29e41e9
 ./.git/objects/ae/e5b48a8286867e38c8779be095a1e9f9fa4c2a
@@ -46,11 +50,14 @@
 ./.git/objects/79/56fe6362636ea53eb12ec158f84574a15a22bf
 ./.git/objects/ac/7480fdaa62c8162c487307145b1f3332040cc9
 ./.git/objects/3c/f0d8562311b9a18e8712f751bd88099dd9b2f4
+./.git/objects/d3/08c8a191f2e797edaec43a12c6e72665b99a4c
 ./.git/objects/45/bf35d3013fd0386444fb8c571c7d961ef068ea
 ./.git/objects/b0/a546eb5bc1b204275bc50f911a049b78afe8d4
 ./.git/objects/76/b4613548faa36b4948d0726f5a4b8039cb41da
+./.git/objects/76/65791a247dc98f76f6382c62f28853b27790f3
 ./.git/objects/a7/4d1bba06953bf7884a5bcd8601368fef5383b9
 ./.git/objects/59/2a0664dee8ae5e8b68663d8801a6efc2c99c83
+./.git/objects/41/c193b3e672f4668b59077b1b0ba11a6df435f2
 ./.git/objects/8b/137891791fe96927ad78e64b0aad7bded08bdc
 ./.git/objects/05/ae2c7513ee9991f99b141c350fbc2de571bb7a
 ./.git/objects/4d/ebd8c864ad3549f3d92949af4abfd4daae9595
@@ -58,13 +65,17 @@
 ./.git/objects/87/d9ecd338f90272da67f9725fa6b2c27bbcffae
 ./.git/objects/46/8c24174988a82e0525c6d6b9069d3147456cdb
 ./.git/objects/bb/b4c7cebb61eafaf96a9f033cfb2197dbe903d4
+./.git/objects/e0/ff64bc2daba99f3c9005be59e98f739464e161
 ./.git/objects/dd/98c34b672ba34e3aa76072389e9cbe98f0ab39
 ./.git/objects/52/5b643fb48936ccbf84ac37cc0d2c93d3da5e0d
 ./.git/objects/1f/955f69a79886c0d28d54b8d41a532483f4e66d
 ./.git/objects/b8/09378a5ccf9fb5dbcf0d821f8bb263a3bbc87e
+./.git/objects/37/d067df21d8cf2dc704b4345cc9d610c34d94d5
+./.git/objects/ef/f42dfd0556365df4f5fa1c7f12762b12d4e7ef
 ./.git/objects/44/5451448e534090307e30d87ce01efe8986dfe3
 ./.git/objects/07/4bf69c9122ea5bf29fa08efa40e70b3515bcd2
 ./.git/objects/fa/76b6e406e9145aba23c63a7e54bf9db36042f0
+./.git/objects/33/d6b20584e27e691daab253d25d15034ff39251
 ./.git/objects/4e/afa07f717dd58839051b994009684eca900e3d
 ./.git/objects/60/1161356b78933dd3b029ee5636f37225affc32
 ./.git/objects/84/9c0d9b0db397e8178e6b8cadb846ccf4be4858
@@ -158,6 +169,7 @@
 ./wofi/style.css
 ./wofi/style.css.backup
 ./wofi/config
+./hypr/scripts/set-wallpaper.sh
 ./hypr/hyprland.conf
 ./hypr/hyprpaper.conf
 ./arch/waybar/style.css
