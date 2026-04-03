@@ -3,7 +3,7 @@
   "position": "bottom",
   "height": 24,
   "margin": "0 60 12 60",
-  "modules-left": ["custom/menu"],
+  "modules-left": ["hyprland/workspaces", "custom/menu"],
   "modules-center": ["hyprland/window"],
   "modules-right": ["network", "pulseaudio", "battery", "clock", "custom/nft"],
 
